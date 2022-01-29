@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  header{
+    margin: 5px 0px;
+    padding: 18px;
+    background-color: white;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    /* border-style: ; */
+    position: sticky;
+    top: 0px;
+    font-family: system-ui;
+    font-weight: bold;
+  }
+  #heading{
+    margin: 30px;
+    font-size: x-large;
+    color: #e60023;
+    
+}
+#headlist{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right; 
+    margin: 0px 10px 0px 0px;
+    font-size: large;
+    width: 500px;
+    
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+header a:hover{
+border: 1px solid lightgray;
+}
+#login{
+    border: 1px solid #e60023; 
+    background-color: #e60023; 
+    color: white;
+    padding: 5px; 
+    border-radius: 30px;
+}
+#login:hover{
+  background-color: #b4051f; 
+}
+#login:active{
+
+}
+#signup{
+    border: 1px solid lightgray; 
+    background-color: lightgray; 
+    padding: 5px; 
+    border-radius: 30px;
+}
+#signup:hover{
+  background-color: rgb(151, 146, 146);
+
+}
+img{
+    width: 230px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+}
+
+  .column {
+      
+    float: left;
+    width: 20%;
+    padding: 8px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 750px) {
+    #headlist {
+      content-visibility: hidden;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .column {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 400px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+footer{
+  margin: 20px;
+  padding-top: 50px;
+  text-align: center;
+  color: gray;
+}
