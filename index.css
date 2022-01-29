@@ -64,13 +64,13 @@ img{
     width: 100%;
     /* border: 2px solid black; */
     border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    
 
 }
 
   .column {
-      
+    display: flex;
+    flex-wrap: wrap;  
     float: left;
     width: 20%;
     padding: 8px;
