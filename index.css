@@ -11,6 +11,7 @@
     top: 0px;
     font-family: system-ui;
     font-weight: bold;
+    z-index: 1;
   }
   #heading{
     margin: 30px;
@@ -47,9 +48,7 @@ border: 1px solid lightgray;
 #login:hover{
   background-color: #b4051f; 
 }
-#login:active{
 
-}
 #signup{
     border: 1px solid lightgray; 
     background-color: lightgray; 
@@ -69,7 +68,7 @@ img{
 }
 img:hover{
   transition: all 0.3s ease-in-out;
-  border: 1px solid black;
+  border: 2px solid black;
 border-radius: 0px;
   transform: scale(1.2);
 
