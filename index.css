@@ -67,7 +67,13 @@ img{
     
 
 }
+img:hover{
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+border-radius: 0px;
+  transform: scale(1.2);
 
+}
   .column {
     display: flex;
     flex-wrap: wrap;  
